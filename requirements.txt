@@ -1,5 +1,7 @@
-python-telegram-bot==20.8        # Telegram Bot API framework (asyncio-based):contentReference[oaicite:13]{index=13}
-python-dotenv==1.1.1            # Чтение .env файла (настройки окружения):contentReference[oaicite:14]{index=14}
-APScheduler==3.11.0             # Планировщик задач для JobQueue бота:contentReference[oaicite:15]{index=15}:contentReference[oaicite:16]{index=16}
-httpx==0.28.1                   # Async HTTP клиент, обязателен для python-telegram-bot:contentReference[oaicite:17]{index=17}
-tzdata==2025.2                  # База часовых поясов для модуля zoneinfo:contentReference[oaicite:18]{index=18}:contentReference[oaicite:19]{index=19}
+# ===============================
+# 📦 requirements.txt для бота "Плетущий Конец"
+# ===============================
+
+python-telegram-bot==20.8    # Основная библиотека Telegram Bot API (асинхронная)
+python-dotenv==1.0.1         # Для чтения .env файла с настройками
+httpx==0.28.1                # Async HTTP клиент (требуется для python-telegram-bot)
