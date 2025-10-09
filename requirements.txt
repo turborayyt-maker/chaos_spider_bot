@@ -4,4 +4,4 @@
 
 python-telegram-bot==20.8    # Основная библиотека Telegram Bot API (асинхронная)
 python-dotenv==1.0.1         # Для чтения .env файла с настройками
-httpx==0.28.1                # Async HTTP клиент (требуется для python-telegram-bot)
+httpx==0.26.0                # Async HTTP клиент (требуется для python-telegram-bot)
